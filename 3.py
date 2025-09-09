@@ -1,5 +1,9 @@
-print("9*9表")
+a=eval(input("請輸入數字 A:"))
+b=eval(input("請輸入數字 B:"))
 
-for i in range(2,10,1):
-    for j in range(1,10,1):
-        print(f"{i}x{j}={i*j}")
+if a<b:
+    print(f"B比A大 {b-a}")
+elif a>b:
+    print(f"A比B大 {a-b}")
+else :
+    print(f"A 跟 B 一樣大")
